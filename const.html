@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        p{
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3 col-12 mt-5">
+                <h1>Circle Details</h1>
+                <div class="form-group">
+                    <label for="radisu">Enter Radius of Circle:</label>
+                    <input type="text" id="radius" class="form-control" placeholder="Enter Radius of Circle">
+                </div>
+                <div class="form-group">
+                    <label for="color">Enter Color of Circle:</label>
+                    <input type="text" id="color" class="form-control" placeholder="Enter Color of Circle">
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="btnSubmit"  class="btn-block btn-info mb-3">Submit</button>
+               
+                    <p id="constructor"></p>
+                    <p id="pRadius"></p>
+                    <p id="pColor"></p>
+                    <p id="pArea"></p>
+                    <p id="pCircum"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="constr.js"></script> 
+</body>
+</html>
